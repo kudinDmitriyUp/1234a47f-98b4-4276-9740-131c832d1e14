@@ -73,6 +73,7 @@ export default function Home() {
           tagIcon={Wine}
           textboxLayout="default"
           animationType="slide-up"
+          gridVariant="uniform-all-items-equal"
           features={[
             {
               title: "The Boutique",
