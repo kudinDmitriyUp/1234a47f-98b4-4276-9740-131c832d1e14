@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarStyleMinimal from '@/components/navbar/NavbarStyleMinimal';
@@ -31,7 +31,6 @@ export default function Home() {
       <div id="nav" data-section="nav">
         <NavbarStyleMinimal
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32T51L3BHE8qqE8rXXWBwMZaYtk/uploaded-1763212585774-n2ic6m4n.jpg"
-          logoAlt="The Library Wine Boutique"
           brandName="The Library"
           button={{
             text: "Reservas",
@@ -73,7 +72,7 @@ export default function Home() {
           tag="Experiencias"
           tagIcon={Wine}
           textboxLayout="default"
-          animationType="entrance-slide"
+          animationType="slide-up"
           features={[
             {
               title: "The Boutique",
@@ -200,7 +199,7 @@ export default function Home() {
               imageAlt: "Chef Sommelier",
               socialLinks: [
                 {
-                  icon: "Instagram",
+                  icon: Instagram,
                   url: "https://instagram.com/thelibrarywineboutique"
                 }
               ]
@@ -214,7 +213,7 @@ export default function Home() {
               imageAlt: "Chef Ejecutivo",
               socialLinks: [
                 {
-                  icon: "Instagram",
+                  icon: Instagram,
                   url: "https://instagram.com/thelibrarywineboutique"
                 }
               ]
